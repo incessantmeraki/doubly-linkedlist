@@ -44,15 +44,15 @@ Dlist.prototype.pushBack = function (val) {
 }
 
 Dlist.prototype.popFront = function () {
-  var node = this._sentinel.flink
+  var val = this._sentinel.flink.val
   this.remove(this._sentinel.flink)
-  return node
+  return val
 }
 
 Dlist.prototype.popBack = function () {
-  var node = this._sentinel.blink
+  var val= this._sentinel.blink.val
   this.remove(this._sentinel.blink)
-  return node
+  return val
 }
 
 

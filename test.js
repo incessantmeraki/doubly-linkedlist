@@ -17,9 +17,9 @@ test('basic pushBack pop functions', function (t) {
   myList.pushBack('World')
 
   t.equal(2, myList.size())
-  t.equal('Hello', myList.popFront().val)
+  t.equal('Hello', myList.popFront())
   t.equal(1, myList.size())
-  t.equal('World', myList.popBack().val)
+  t.equal('World', myList.popBack())
   t.equal(0, myList.size())
   t.end()
 })
