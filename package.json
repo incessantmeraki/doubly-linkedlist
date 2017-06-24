@@ -1,5 +1,29 @@
 {
   "devDependencies": {
     "tape": "^4.6.3"
-  }
+  },
+  "name": "doubly-linkedlist",
+  "description": "simple and fast circular doubly linked list with a runtime of O(1) for basic operations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incessantmeraki/doubly-linkedlist.git"
+  },
+  "keywords": [
+    "circular",
+    "doubly",
+    "linked",
+    "list"
+  ],
+  "author": "Ashwin Kandel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incessantmeraki/doubly-linkedlist/issues"
+  },
+  "homepage": "https://github.com/incessantmeraki/doubly-linkedlist#readme"
 }
