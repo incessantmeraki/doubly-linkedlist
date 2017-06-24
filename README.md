@@ -17,7 +17,7 @@ simple and fast circular doubly linked list with a runtime of O(1) for basic ope
 
 ### API
 
-#### `llist= new Dlist()
+#### `llist= new Dlist()`
 Creates a new linked list structure 
 
 #### `llist.pushFront(val)`
