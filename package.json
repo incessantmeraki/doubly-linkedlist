@@ -4,7 +4,7 @@
   },
   "name": "doubly-linkedlist",
   "description": "simple and fast circular doubly linked list with a runtime of O(1) for basic operations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "dependencies": {},
   "scripts": {
