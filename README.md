@@ -1,5 +1,7 @@
 # doubly-linkedlist
 
+[![Build Status](https://travis-ci.org/incessantmeraki/doubly-linkedlist.svg?branch=master)](https://travis-ci.org/incessantmeraki/doubly-linkedlist)
+
 simple and fast circular doubly linked list with a runtime of O(1) for basic operations 
 
 ## Usage
